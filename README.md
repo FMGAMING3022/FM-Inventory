@@ -10,23 +10,23 @@ Future updates will be coming and we will of course support all normal monitor s
 
 ### Full Inventory
 
-![image](https://github.com/Project-Sloth/ps-inventory/assets/82112471/fda2588d-e468-4fd5-8bf5-2f584f059609)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176956714214490254/image.png?)
 
 ### Options Menu
 
-![image](https://github.com/Project-Sloth/ps-inventory/assets/82112471/1782f97a-27e6-441b-90a1-ff150cd846e2)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176958470075981955/image.png?)
 
 ### Hotbar Slots
 
-![image](https://github.com/Project-Sloth/ps-inventory/assets/82112471/c0a77f4a-f482-42f5-a5da-1f3571d14130)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176958951254921427/image.png?)
 
 ### Inventory Glovebox
 
-![image](https://github.com/Project-Sloth/ps-inventory/assets/82112471/432f8c79-1a9f-44d1-8062-50b596194752)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176959229656047626/image.png?)
 
 ### Inventory Trunk
 
-![image](https://github.com/Project-Sloth/ps-inventory/assets/82112471/f9c78e49-ec51-4d55-9ac0-b7058951d31a)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176959538226811002/image.png?)
 
 # Key Features
 
@@ -46,15 +46,15 @@ Future updates will be coming and we will of course support all normal monitor s
 
 # How to install ps-inventory (Latest QBCore Update)
 
-* Download `ps-inventory` from our GitHub
+* Download `FM-Inventory` from our GitHub
 * Make sure you have the latest update of [qb-core](https://github.com/qbcore-framework/qb-core)
 * Make sure you have the latest update of [qb-smallresources](https://github.com/qbcore-framework/qb-smallresources)
 * Make sure you have the latest update of [qb-weapons](https://github.com/qbcore-framework/qb-weapons)
-* Drag `ps-inventory` into your resources folder or any subfolder
-* Make sure that the folder is named `ps-inventory` and **not** `ps-inventory-main`
-* Replace all occurrences of `qb-inventory` with `ps-inventory`.<br>The example below uses Visual Studio Code to replace all instances.
+* Drag `FM-Inventory` into your resources folder or any subfolder
+* Make sure that the folder is named `FM-Inventory` and **not** `FM-Inventory`
+* Replace all occurrences of `qb-inventory` with `FM-Inventory`.<br>The example below uses Visual Studio Code to replace all instances.
 
-![image](https://github.com/Z3rio/ps-inventory/assets/54480523/00fa21a5-4be2-443f-aff2-4b3202b662dc)
+![image](https://media.discordapp.net/attachments/1147654379311202346/1176960109360971807/image.png?)
 
 ## Set up the decay system
 
@@ -109,4 +109,4 @@ Please use the GitHub issues system to report issues or make suggestions, when m
 
 ## Connect with us
 
-Join our [**Discord**](https://discord.gg/projectsloth) for updates, support, and special early testing!
+Join our [**Discord**](https://discord.gg/EW5E8qcG9F) for updates, support, and special early testing!
