@@ -6,7 +6,7 @@
 .q-checkbox__svg { color: #000!important; }
 div#q-loading-bar { display: none!important; }
 ::-webkit-scrollbar { display: none!important; }
-.q-card { background: rgba(0, 0, 0, 0.850)!important; }
+.q-card { background: #52616f!important; }
 p { margin: 0 !important; }
 .q-btn { align-items: center!important; }
 .text-h6 { color: #fff; }
