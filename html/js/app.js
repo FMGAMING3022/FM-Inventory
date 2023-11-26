@@ -2468,7 +2468,8 @@ var requiredItemOpen = false;
     Inventory.Open = function(data) {
         totalWeight = 0;
         totalWeightOther = 0;
-    
+        var v = data
+        $('.namejs').html('<i class ="fa fa-id-badge"></i> ID:'+v.pid+' | NAME: '+v.pname+' |  '+'<i class="fas fa-wallet"></i>'+' CASH: $'+v.bank)
         $(".player-inv-label").html(data.Name);
         $(".player-inventory").find(".item-slot").remove();
         $(".ply-hotbar-inventory").find(".item-slot").remove();

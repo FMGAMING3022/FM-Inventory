@@ -429,6 +429,9 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
                 if other then
                     currentOtherInventory = other.name
                 end
+                player = PlayerId()
+                pname = GetPlayerName(player)
+                pid = GetPlayerServerId(player)
             QBCore.Functions.TriggerCallback('inventory:server:ConvertQuality', function(data)
                 inventory = data.inventory
                 other = data.other
@@ -440,7 +443,10 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
                     maxweight = Config.MaxInventoryWeight,
                     Ammo = PlayerAmmo,
                     maxammo = Config.MaximumAmmoValues,
-                    Name = PlayerData.charinfo.firstname .." ".. PlayerData.charinfo.lastname .." - [".. GetPlayerServerId(PlayerId()) .."]", 
+                    pid = pid,
+                    money = PlayerData.money['cash'],
+                    bank = PlayerData.money['bank'],
+                    pname = PlayerData.charinfo.firstname .. ' ' .. PlayerData.charinfo.lastname,
                 })
                 inInventory = true
                 end, inventory, other)
@@ -456,6 +462,9 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
             if other then
                 currentOtherInventory = other.name
             end
+            player = PlayerId()
+            pname = GetPlayerName(player)
+            pid = GetPlayerServerId(player)
         QBCore.Functions.TriggerCallback('inventory:server:ConvertQuality', function(data)
             inventory = data.inventory
             other = data.other
@@ -468,6 +477,10 @@ RegisterNetEvent('inventory:client:OpenInventory', function(PlayerAmmo, inventor
                 Ammo = PlayerAmmo,
                 maxammo = Config.MaximumAmmoValues,
                 Name = PlayerData.charinfo.firstname .." ".. PlayerData.charinfo.lastname .." - [".. GetPlayerServerId(PlayerId()) .."]", 
+                pid = pid,
+                money = PlayerData.money['cash'],
+                bank = PlayerData.money['bank'],
+                pname = PlayerData.charinfo.firstname .. ' ' .. PlayerData.charinfo.lastname,
             })
             inInventory = true
             end,inventory,other)
