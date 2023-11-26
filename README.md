@@ -10,7 +10,7 @@ Future updates will be coming and we will of course support all normal monitor s
 
 ### Full Inventory
 
-![image](https://media.discordapp.net/attachments/1147654379311202346/1176956714214490254/image.png?)
+![image](https://media.discordapp.net/attachments/1026264756811726898/1178242831421276260/image.png?)
 
 ### Options Menu
 
@@ -44,6 +44,8 @@ Future updates will be coming and we will of course support all normal monitor s
 * Blurred inventory background
 * Elements of NoPixel 3.5 design ideas interwoven
 * Vehicle Weight In Config
+* Cash Show In Info Bar
+
 
 # How to install ps-inventory (Latest QBCore Update)
 
