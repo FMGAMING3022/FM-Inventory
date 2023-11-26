@@ -52,7 +52,7 @@ Future updates will be coming and we will of course support all normal monitor s
 * Make sure you have the latest update of [qb-weapons](https://github.com/qbcore-framework/qb-weapons)
 * Drag `FM-Inventory` into your resources folder or any subfolder
 * Make sure that the folder is named `FM-Inventory` and **not** `FM-Inventory`
-* Replace all occurrences of `qb-inventory` with `FM-Inventory`.<br>The example below uses Visual Studio Code to replace all instances.
+* Replace all occurrences of `FM-Inventory` with `FM-Inventory`.<br>The example below uses Visual Studio Code to replace all instances.
 
 ![image](https://media.discordapp.net/attachments/1147654379311202346/1176960109360971807/image.png?)
 
