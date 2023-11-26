@@ -386,3 +386,29 @@ Config.MaximumAmmoValues = {
     ["shotgun"] = 200,
     ["rifle"] = 250,
 }
+--for each player who has problems with meta-files for cars enjoy that
+Config.VehicleWeight = { --Calculation 1000 = 1KG
+    Default = {weight = 60000, slots = 35},
+    Classes = {
+        [0] =  {weight = 38000,  slots = 30},     --Compacts
+        [1] =  {weight = 50000,  slots = 40},     --Sedans
+        [2] =  {weight = 75000,  slots = 50},     --SUVs  
+        [3] =  {weight = 42000,  slots = 35},     --Coupes  
+        [4] =  {weight = 38000,  slots = 30},     --Muscle  
+        [5] =  {weight = 30000,  slots = 25},     --Sports Classics  
+        [6] =  {weight = 30000,  slots = 25},     --Sports  
+        [7] =  {weight = 30000,  slots = 25},     --Super  
+        [8] =  {weight = 1000,  slots = 15},     --Motorcycles  
+        [9] =  {weight = 60000,  slots = 35},     --Off-road  
+        [12] = {weight = 120000, slots = 35},   --Vans  
+        [13] = {weight = 0,      slots = 0},         --Cycles  
+        [14] = {weight = 120000, slots = 50},   --Boats  
+        [15] = {weight = 120000, slots = 50},   --Helicopters  
+        [16] = {weight = 120000, slots = 50} ,  --Planes
+    },  
+    Models = {  
+        ["ignus"] = {weight = 985555, slots = 70},      
+        ["mule"] = {weight = 985555, slots = 70},       
+        ["pounder"] = {weight = 4000000, slots = 70},   
+    }
+}

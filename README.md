@@ -43,6 +43,7 @@ Future updates will be coming and we will of course support all normal monitor s
 * Text overflow ellipsis used (so your product titles with never overlap the containers and instead do "...")
 * Blurred inventory background
 * Elements of NoPixel 3.5 design ideas interwoven
+* Vehicle Weight In Config
 
 # How to install ps-inventory (Latest QBCore Update)
 
