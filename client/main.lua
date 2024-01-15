@@ -1051,6 +1051,7 @@ end)
         TriggerServerEvent("inventory:server:OpenInventory", "attachment_crafting", math.random(1, 99), crafting)
     end)
     
+CreateThread(function()
     local toolBoxModels = {
         `prop_toolchest_05`,
         `prop_tool_bench02_ld`,
@@ -1076,3 +1077,4 @@ end)
             },
         distance = 1.0
     })
+end)
