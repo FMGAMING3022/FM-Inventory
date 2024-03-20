@@ -4,29 +4,25 @@ Future updates will be coming and we will of course support all normal monitor s
 
 # Previews
 
-### Simple item guidelines (found in main directory ps-inventory)
-
-![ps-inventory Guideline](https://user-images.githubusercontent.com/91661118/146315681-c67f542d-e2bc-43ca-9957-7f1971b84268.png)
-
 ### Full Inventory
 
-![image](https://media.discordapp.net/attachments/1026264756811726898/1178242831421276260/image.png?)
+![image](https://media.discordapp.net/attachments/1091065495475724368/1220142632454459472/image.png?ex=660ddd60&is=65fb6860&hm=b2f6358e7d41cec6690b921f76b518afeb05b0e5945f3b06d760c2fe48407c5f&)
 
 ### Options Menu
 
-![image](https://media.discordapp.net/attachments/1147654379311202346/1176958470075981955/image.png?)
+![image](https://media.discordapp.net/attachments/1091065495475724368/1220143764836843670/image.png?ex=660dde6e&is=65fb696e&hm=85e35c992e8988eee94dd2926e4cf8e12d444cd9748cb5e8e131a3bb85f91fc5&)
 
 ### Hotbar Slots
 
-![image](https://media.discordapp.net/attachments/1147654379311202346/1176958951254921427/image.png?)
+![image](https://media.discordapp.net/attachments/1091065495475724368/1220143921468932136/image.png?ex=660dde94&is=65fb6994&hm=3beda3fc8aba50e140a0683dbfa6647beadf9192e31c7bbf8c11baa6393f715e&)
 
 ### Inventory Glovebox
 
-![image](https://media.discordapp.net/attachments/1147654379311202346/1176959229656047626/image.png?)
+![image](https://media.discordapp.net/attachments/1091065495475724368/1220143235586854942/image.png?ex=660dddf0&is=65fb68f0&hm=92a396f3a2ab22579151d6539b81d56e8cf0b57ce53bd06b7ca39ccd3c3498aa&)
 
 ### Inventory Trunk
 
-![image](https://media.discordapp.net/attachments/1147654379311202346/1176959538226811002/image.png?)
+![image](https://media.discordapp.net/attachments/1091065495475724368/1220143441229516800/image.png?ex=660dde21&is=65fb6921&hm=11046b501963c2b19ab5b6090f5a99a25b0c5b092f8901bb01867de4cc54343f&)
 
 # Key Features
 
@@ -40,14 +36,14 @@ Future updates will be coming and we will of course support all normal monitor s
 * Hotkey numbers visible in inventory and hotbar slots
 * Weight progress bar
 * Tooltip has a determined height (so it won't ever go higher than visible or cut off)
-* Text overflow ellipsis used (so your product titles with never overlap the containers and instead do "...")
+* Text overflow ellipsis used (so your product titles will never overlap the containers and instead do "...")
 * Blurred inventory background
 * Elements of NoPixel 3.5 design ideas interwoven
 * Vehicle Weight In Config
 * Cash Show In Info Bar
 
 
-# How to install ps-inventory (Latest QBCore Update)
+# How to install FM-Inventory (Latest QBCore Update)
 
 * Download `FM-Inventory` from our GitHub
 * Make sure you have the latest update of [qb-core](https://github.com/qbcore-framework/qb-core)
@@ -98,18 +94,14 @@ In this example, the sandwich item would take 3 days to decay and once it does, 
 
 Runs at ~ 0.00 to 0.01 ms if you have more optimization suggestions feel free to reach out
 
-# Credits
+# Orginal Credits
 
-* [OK1ez](https://github.com/OK1ez) for full redesign. 
-* ihyajb (Aj) for [original version](https://github.com/ihyajb/aj-inventory)
-* Jay for [decay](https://github.com/tnj-development/inventory)
-* i-kulgu for [updated decay](https://github.com/i-kulgu/qb-inventory-decay)
-* [OnlyCats](https://github.com/onlycats) who helped reorganize and also created some custom images.
+* [Project Sloth](https://github.com/Project-Sloth)
 
 # Issues and Suggestions
 
-Please use the GitHub issues system to report issues or make suggestions, when making suggestions, please keep [Suggestion] in the title to make it clear that it is a suggestion.
+Please use the GitHub issues system to report issues or make suggestions, when making suggestions, please keep [Suggestion] in the title to clarify that it is a suggestion.
 
 ## Connect with us
 
-Join our [**Discord**](https://discord.gg/EW5E8qcG9F) for updates, support, and special early testing!
+Join our [**Discord**](https://discord.gg/4FRMWEw98Z) for updates, support, and special early testing!
